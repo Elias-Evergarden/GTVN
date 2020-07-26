@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Slab:wght@800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/5a1badc566.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>SOS</title>
+</head>
+<body>
+	<div id="slideout-menu">
+		<ul>
+			<li>
+				<a href="SH.html">Trang chủ</a>
+			</li>
+			<li>
+				<a href="Bản đồ.html">Bản đồ</a>
+			</li>
+			<li>
+				<a href="Đăng tải thông tin.html">Đăng tải thông tin</a>
+			</li>
+			<li>
+				<a href="#">Thống kê</a>
+			</li>
+			<li>
+				<a href="#">Tài khoản</a>
+			</li>
+			<li>
+				<input type="text" placeholder="Tìm kiếm">
+			</li>
+		</ul>
+	</div>
+	<nav>
+		<div id="logo-img">
+			<a href="#">
+				<img src="Logo.png" alt="SOSL TEAM Logo">
+			</a>
+		</div>
+		<div id="menu-icon">
+			<i class="fas fa-bars"></i>
+		</div>
+		<ul>
+			<li>
+				<a href="SH.html">Trang chủ</a>
+			</li>
+			<li>
+				<a href="Bản đồ.html">Bản đồ</a>
+			</li>
+			<li>
+				<a href="Đăng tải thông tin.html">Đăng tải thông tin</a>
+			</li>
+			<li>
+				<a href="#">Thống kê</a>
+			</li>
+			<li>
+				<a href="#">Tài khoản</a>
+			</li>
+			<li>
+				<div id ="search-icon">
+					<i class="fas fa-search"></i>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	
+	<div id="searchbox">
+		<input type="text" placeholder="Tìm kiếm">
+	</div>	
+	
+	<div id="banner">
+		<h1><a href="SH.html">Tìm kiếm</a></h1>
+		<h1><a href="Đăng tải thông tin.html">Đăng tải thông tin</a></h1>
+	</div>
+	
+	<main>
+		<div id="symbol">
+					<ul>
+						<li>
+							<a href="#" target="_blank">
+								<i class="fas fa-info-circle"></i>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fas fa-thumbs-up"></i>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fas fa-user-edit"></i>
+						</li>
+					</ul>
+				</div>
+		
+		<footer>
+			<div id="left-footer">
+				<h3>Đường link nhanh</h3>
+				<p>
+					<ul>
+						<li>
+							<a href="#">Trang chủ</a>
+						</li>
+						<li>
+							<a href="#">Chính sách bản quyền</a>
+						</li>
+						<li>
+							<a href="#">Liên hệ</a>
+						</li>
+					</ul>
+				</p>
+			</div>
+			
+			<div id="right-footer">
+				<h3>Tìm hiểu thêm thông tin về website trên</h3>
+				<div id="social-media-footer">
+					<ul>
+						<li>
+							<a href="#" target="_blank">
+								<i class="fab fa-facebook-square"></i>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-instagram"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</main>
+	
+	<script src="main.js"></script>
+</body>
+</html>	
